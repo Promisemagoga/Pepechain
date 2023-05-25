@@ -98,7 +98,6 @@ header span {
 header h1,
 span {
   font-family: 'Slackey', cursive;
-  font-size: 30px;
 }
 
 .meme-economy {
@@ -180,7 +179,6 @@ span {
 .roadmap-details {
   display: flex;
   background-color: #14311b;
-  padding: 0 10px;
   width: 50%;
   float: right;
   padding: 20px;
@@ -198,6 +196,7 @@ span {
 .roadMap-details-column{
   display: flex;
   flex-direction: row;
+  column-gap: 5px;
 }
 
 .roadmap-container hr {
@@ -330,6 +329,44 @@ details{
 }
 
 @media screen and (max-width: 480px) {
+  .logo {
+    padding: 13px;
+  }
+
+  .header--firstPart>p {
+    width: 10rem;
+    text-indent: -1px;
+  }
+
+  .header--firstPart h1 {
+    font-size: 5vw;
+  }
+
+  .header--firstPart span {
+    font-size: 5vw;
+  }
+
+  .header--secondPart-img {
+    width: 20%;
+  
+  }
+
+  .meme-economy {
+    font-size: 4.5vw;
+  }
+  
+  .header--secondPart h1 {
+    font-size: 5vw;
+  }
+  
+  .header--secondPart span {
+    font-size: 5vw;
+  }
+  
+  .tableData {
+    width: 80%;
+  }
+
   .navbar--button {
     display: flex;
     flex-direction: column;
@@ -342,15 +379,60 @@ details{
     height: 100px;
   }
 
-
-
   .cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .card--info {
     margin-top: 20px;
   }
+
+  .cards h1 {
+    font-size: 1.8vw;
+  }
+  
+  .cards p {
+    text-indent: -10px;
+    font-size: 1.5vw;
+  }
+
+  .roadmap-details {
+    display: flex;
+    background-color: #14311b;
+    width: 50%;
+    float: right;
+  }
+
+  .roadMap-details-column{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .roadmap-info h1 {
+    font-size: 3.5vw;
+  }
+  
+.roadmap-description p{
+  font-size: 2vw;
+}
+
+.aboutSection-right p{
+  font-size: 2vw;
+}
+
+.middle p{
+  font-size: 2vw;
+}
+
+.faqs--left h1{
+  font-size: 2.5vw;
+}
+
+.faqs--left p{
+  font-size: 2vw;
+}
 
 }
