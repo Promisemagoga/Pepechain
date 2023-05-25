@@ -415,8 +415,6 @@ details{
   .roadMap-details-column{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     
   }
 
@@ -428,9 +426,7 @@ details{
   font-size: 2vw;
 }
 
-.roadMap-details-column h4{
-  width: 10vw;
-}
+
 
 .aboutSection-right p{
   font-size: 2vw;
