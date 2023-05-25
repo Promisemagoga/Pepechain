@@ -4,7 +4,7 @@ function Footer(){
         <div className="m-10">
         <nav className="navbar navbar-expand-lg navbar-dark navItems">
             <div className="container-fluid nav-container">
-                <a href="#" className="navbar-brand logo"><img src="./logo.jpeg"/></a>
+            <h1 className="logo">PEPE<span>CHAIN</span></h1>
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="navbar-toggler-icon navBar-icon"></span>
                 </button>
