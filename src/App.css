@@ -212,8 +212,10 @@ span {
 }
 
 .roadmap-info h2 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif;
   color: #3b8b0c;
+  font-size: 3vw;
+  font-weight: bold;
 }
 
 .roadmap-info h1 {
