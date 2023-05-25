@@ -405,12 +405,12 @@ details{
     font-size: 1.5vw;
   }
 
-  .roadMap-details-column{
+  /* .roadMap-details-column{
     width: 7vh;
     align-items: center;
     
     
-  }
+  } */
 
   .roadmap-info h1 {
     font-size: 3.5vw;
