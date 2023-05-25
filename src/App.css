@@ -1,9 +1,3 @@
-/* .logo {
-  background-color: #142d18;
-  padding: 15px;
-  border-radius: 50%;
-
-} */
 
 .logo{
   font-size: 2.5vw;
@@ -166,7 +160,7 @@ span {
   border-radius: 5px;
 }
 
-.fa-barcode {
+.fa-ellipsis-h {
   position: absolute;
   top: 12px;
   right: 6px;
@@ -335,6 +329,19 @@ details{
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: left;
+}
+
+.mainContainer{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  background-color: #02281b;
+  padding: 30px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 480px) {

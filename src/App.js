@@ -34,6 +34,7 @@ const roadMapElement = roadMapData.map((roadmap) =>{
 })
   return (
     <div className="App">
+      <div className='mainContainer'>
      <NavBar/>
      <Header/>
      <Features/>
@@ -44,6 +45,7 @@ const roadMapElement = roadMapData.map((roadmap) =>{
      {roadMapElement}
      <AboutUs/>
      <Faqs/>
+     </div>
      <Footer/>
     </div>
   );
