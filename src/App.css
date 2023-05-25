@@ -10,7 +10,6 @@
 }
 .logo span{
   color: #89b554;
-  font-size: 2.5vw;
 }
 
 .navItems a {
@@ -337,8 +336,8 @@ details{
 }
 
 @media screen and (max-width: 480px) {
-  .logo {
-    padding: 13px;
+  .logo{
+    font-size: 4vw;
   }
 
   .header--firstPart>p {
