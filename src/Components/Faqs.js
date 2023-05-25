@@ -1,4 +1,16 @@
 function Faqs(){
+  let answers = document.querySelectorAll(".faqs-question");
+answers.forEach((event) => {
+event.addEventListener("click", () => {
+	if (event.classList.contains("active")) {
+	event.classList.remove("active");
+	} else {
+	event.classList.add("active");
+	}
+});
+});
+
+
 
     return(
         <div className="faqs--card">
@@ -9,7 +21,7 @@ function Faqs(){
             <div className="faqs">
             <hr/>
               <div className="faqs--left">
-                <h1>I sold an pepechain, where's my BNB?</h1>
+                <h1 className="faqs-question">I sold an pepechain, where's my BNB?</h1>
                 <p>Pepechain and BNB are both cryptocurrencies, so it's possible that you sold Pepechain
                     for BNB on a cryptocurrency exchange. If that's the case case, you should check your account
                     on the exchange to see if the BNB has been deposited.was a delay in the transaction or an issue
@@ -23,12 +35,12 @@ function Faqs(){
             <hr/>
             <div className="faqs">
               <div className="faqs--left">
-                <h1>How can I fist my pepechain collection on the market</h1>
-                {/* <p>Pepechain and BNB are both cryptocurrencies, so it's possible that you sold Pepechain
+                <h1 className="faqs-question">How can I fist my pepechain collection on the market</h1>
+                <p>Pepechain and BNB are both cryptocurrencies, so it's possible that you sold Pepechain
                     for BNB on a cryptocurrency exchange. If that's the case case, you should check your account
                     on the exchange to see if the BNB has been deposited.was a delay in the transaction or an issue
                     with the exchange. You may need to contact their customer support team for assistance.
-                </p> */}
+                </p>
               </div>
               <div className="faqs--right">
               <button className="">Details<i className="fa fa-angle-down" aria-hidden="true"></i></button>
