@@ -1,8 +1,16 @@
-.logo {
+/* .logo {
   background-color: #142d18;
   padding: 15px;
   border-radius: 50%;
 
+} */
+
+.logo{
+  font-size: 2.5vw;
+}
+.logo span{
+  color: #89b554;
+  font-size: 2.5vw;
 }
 
 .navItems a {
