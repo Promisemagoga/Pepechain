@@ -203,7 +203,7 @@ span {
 .roadMap-details-column{
   display: flex;
   flex-direction: row;
-  column-gap: 5px;
+  margin-top: 10px;
 }
 
 .roadmap-container hr {
@@ -405,16 +405,10 @@ details{
     font-size: 1.5vw;
   }
 
-  .roadmap-details {
-    display: flex;
-    background-color: #14311b;
-    width: 50%;
-    float: right;
-  }
-
   .roadMap-details-column{
-    display: flex;
-    flex-direction: row;
+    width: 7vh;
+    align-items: center;
+    
     
   }
 
@@ -425,8 +419,6 @@ details{
 .roadmap-description p{
   font-size: 2vw;
 }
-
-
 
 .aboutSection-right p{
   font-size: 2vw;
