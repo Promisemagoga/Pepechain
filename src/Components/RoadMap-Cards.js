@@ -33,16 +33,6 @@ function RoadMapCards(props) {
                     </div>
 
                 </div>
-                {/* <div className="roadMap-row">
-            <div className="roadmap-details">
-            <i className="fa fa-star" aria-hidden="true"></i>
-             <h4>{props.info.no3}</h4>
-            </div>
-            <div className="roadmap-details">
-            <i className="fa fa-star" aria-hidden="true"></i>
-             <h4>{props.info.no4}</h4>
-            </div>
-             </div> */}
             </div>
             <br />
         </div>
