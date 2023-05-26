@@ -6,7 +6,7 @@ function RoadMapCards(props) {
                 <h2>{props.questionNo}</h2>
                 <div className="roadmap-description">
                     <h1>{props.title}</h1>
-                    <p>Pepechain is reshaping how the meme economy. We create a conducive</p>
+                    <p>{props.description}</p>
                 </div>
                 <div className="roadmap-details">
                     <div className="roadMap-details-row">
